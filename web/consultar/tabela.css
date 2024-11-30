@@ -1,0 +1,117 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Document   : Avaliação
+    Created on : 27/11/2024
+    Author     : Realizado por Grupo FFMIL
+*/
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Cor de fundo mais clara */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo para o título */
+h3 {
+    text-align: center;
+    color: #5e35b1; /* Cor roxa */
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombras no título */
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Estilos para as células da tabela */
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Estilo de cabeçalhos da tabela */
+th {
+    background-color: #7e57c2; /* Cor roxa do link, semelhante ao modelo */
+    color: white;
+}
+
+/* Estilo para as linhas pares da tabela */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para as células de dados */
+td {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Efeito de hover nas linhas da tabela */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilo do texto do cabeçalho da página */
+b {
+    font-size: 18px;
+    color: #7e57c2; /* Cor roxa */
+}
+
+/* Ajustando a aparência do contador de registros */
+#registros {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Adicionando margem ao conteúdo da página */
+br {
+    margin-top: 10px;
+}
+
+/* Estilo para o botão Consultar */
+button.consultar {
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #7e57c2; /* Cor roxa */
+    padding: 12px 25px; /* Ajuste do padding para melhorar o clique */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+/* Efeito de hover no botão */
+button.consultar:hover {
+    background-color: #5e35b1; /* Cor roxa mais escura */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+}
+
+/* Efeito de compressão no clique do botão */
+button.consultar:active {
+    transform: translateY(1px); /* Efeito de compressão ao clicar */
+}
+
+
+
+
+
+
